@@ -3,6 +3,10 @@
 Minimal retrieval-augmented generation (RAG) service built with FastAPI, LangChain, OpenAI embeddings/chat, and PostgreSQL + pgvector.
 
 ## What this project does
+get an api key for openai: <br>
+https://platform.openai.com/api-keys
+
+## What this project does
 
 - Indexes text or PDF content into a PGVector collection.
 - Stores chunk metadata (including optional `context_tag`) for filtered retrieval.
